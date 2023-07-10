@@ -14,7 +14,7 @@ body
     border-radius: 5px;
     background: #FD6E0A;
     font-size: 20px;
-    color:#FFF;
+    color: #FFF;
     font-weight: 700;
     padding: 15px 30px;
     border: 0;
@@ -26,6 +26,7 @@ nav
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .web-title
@@ -55,3 +56,37 @@ nav a
 {
     text-decoration: none;
 }
+
+/* header styles */
+.header
+{
+    background: #FFF8F3;
+}
+
+.banner
+{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-greeting
+{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title
+{
+    color: var(--dark-01, #181818);
+    font-size: 85px;
+    font-weight: 700;
+}
+.banner .profile-pic{
+    width: 500px;
+}
+.banner-content{
+    
+}
+
