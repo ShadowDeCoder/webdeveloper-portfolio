@@ -156,7 +156,7 @@ main section
     line-height: 30px;
     display: flex;
     margin-bottom: 100px;
-    width: 827px;
+    /* width: 827px; */
     flex-direction: column;
     flex-shrink: 0;
     justify-content: center;
@@ -286,4 +286,12 @@ main section
 .download-cv{
     text-align: center;
     margin-top: 50px;
+}
+/* footer section styles */
+
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 100px;
 }
