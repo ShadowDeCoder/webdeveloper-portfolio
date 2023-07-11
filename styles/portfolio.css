@@ -66,6 +66,7 @@ nav a
     background-position: bottom right;
     background-size: cover;
 }
+
 .banner
 {
     padding: 30px 30px 0px 150px;
@@ -120,11 +121,14 @@ main
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 
 /* About section Style >> */
 .about
 {
-    padding: 131px;
+    padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin-top: 130px;
@@ -162,6 +166,7 @@ main
 {
     display: flex;
     justify-content: space-around;
+    margin-top: 50px;
 }
 
 .about-info
@@ -174,15 +179,45 @@ main
     color: #757575;
 }
 
-#what-i-do{
-    padding: 30px 150px;
-    /* margin: auto ; */
-
-}
 .info-description
 {
     color: #474747;
     font-size: 20px;
-    font-style:normal;
+    font-style: normal;
     font-weight: 600;
+}
+
+/* what-i-do section styles */
+
+#what-i-do
+{
+    padding: 10px 150px;
+    /* margin: auto ; */
+
+}
+
+.skills-container
+{
+    display: flex;
+    margin-bottom: 130px;
+    margin-top: 40px;
+    gap: 24px;
+}
+
+.skills
+{
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description
+{
+    color: var(--dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
 }
